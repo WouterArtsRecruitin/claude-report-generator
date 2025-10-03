@@ -451,4 +451,6 @@ if __name__ == '__main__':
         main()  # CLI mode
     else:
         # API mode for Zapier
-        app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)))
+        port = int(os.getenv('PORT', 5000))
+        print(f"Starting Flask app on port {port}")
+        app.run(host='0.0.0.0', port=port, debug=False)
