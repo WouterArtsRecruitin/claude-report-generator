@@ -1,0 +1,13 @@
+# CLAUDE CSV REPORT GENERATOR - SIMPLIFIED DEPENDENCIES
+# No Google API or complex PDF generation needed
+
+# Core dependencies
+anthropic>=0.40.0
+flask>=3.0.0
+pandas>=2.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Template and content generation
+jinja2>=3.1.2
+markdown2>=2.4.10

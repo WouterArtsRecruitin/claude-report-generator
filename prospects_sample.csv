@@ -1,0 +1,11 @@
+company_name,industry,company_size,location,job_title,function_area,seniority,salary_min,salary_max,days_open,employment_type,contact_name,contact_title,email,tier_score
+ASML,Tech/Engineering,5000+,Eindhoven,Senior Software Engineer,IT/Software,Senior,70000,90000,45,vast,Jan de Vries,HR Manager,jan@asml.nl,85
+Philips,Healthcare/Tech,50000+,Amsterdam,Technical Lead,IT/Software,Senior,75000,95000,30,vast,Maria van der Berg,Talent Acquisition Manager,maria@philips.com,88
+ING Bank,Financial Services,10000+,Amsterdam,Senior DevOps Engineer,IT/Infrastructure,Senior,65000,85000,22,vast,Piet Janssen,IT Recruiter,piet@ing.nl,82
+VDL Groep,Manufacturing/Tech,15000+,Eindhoven,Automation Engineer,Engineering,Medior,55000,75000,38,vast,Lisa de Jong,HR Business Partner,lisa@vdl.nl,79
+DSM,Chemical/Life Sciences,25000+,Heerlen,Data Scientist,Data/Analytics,Senior,70000,90000,28,vast,Rob van Dijk,Technical Recruiter,rob@dsm.com,81
+Takeaway.com,Tech/Food Delivery,2000+,Amsterdam,Frontend Developer,IT/Software,Medior,50000,70000,15,vast,Anne Bakker,Tech Recruiter,anne@takeaway.com,86
+KPMG Netherlands,Consulting,8000+,Amstelveen,IT Consultant,IT/Consulting,Senior,60000,80000,42,vast,Mark Visser,Senior Consultant,mark@kpmg.nl,78
+Ericsson Netherlands,Telecommunications,1500+,Den Haag,Network Engineer,IT/Telecom,Senior,65000,85000,35,vast,Sarah Mulder,Talent Specialist,sarah@ericsson.com,80
+Rabobank,Financial Services,45000+,Utrecht,Security Analyst,IT/Security,Medior,58000,78000,50,vast,Tom van der Meer,IT Recruiter,tom@rabobank.nl,77
+Unilever Netherlands,FMCG,7000+,Rotterdam,Supply Chain Analyst,Operations,Medior,52000,72000,33,vast,Emma de Wit,HR Coordinator,emma@unilever.com,83

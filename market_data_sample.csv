@@ -1,0 +1,11 @@
+sector,average_salary,open_positions,growth_percentage,shortage_level,top_skills,market_trend
+IT/Software,75000,2500,12.5,High,"Python, JavaScript, React, Cloud, DevOps",Growing
+Engineering,68000,1800,8.3,Medium,"Automation, CAD, Project Management, Lean",Stable
+Healthcare,58000,3200,15.2,Very High,"Patient Care, Medical Software, Compliance",Booming
+Finance,72000,1200,5.8,Medium,"Risk Management, Analytics, Regulations",Cautious
+Manufacturing,62000,2100,6.7,Medium,"Lean, Quality Control, Automation, Safety",Recovering
+Consulting,69000,950,9.1,Medium,"Strategy, Change Management, Analytics",Growing
+Telecom,71000,850,4.2,Low,"5G, Network Security, Cloud Infrastructure",Stable
+FMCG,59000,750,3.5,Low,"Supply Chain, Marketing, Sustainability",Stable
+Logistics,54000,1900,11.8,High,"WMS, Transportation, Optimization",Growing
+Energy,78000,650,18.7,Very High,"Renewable Energy, Grid Management, Safety",Booming
