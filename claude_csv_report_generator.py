@@ -377,6 +377,15 @@ def monthly_endpoint():
             'error': str(e)
         }), 500
 
+@app.route('/', methods=['GET'])
+def root():
+    """Root endpoint"""
+    return jsonify({
+        'message': 'Arts Recruitin Report Generator API',
+        'endpoints': ['/weekly', '/monthly', '/health'],
+        'status': 'running'
+    })
+
 @app.route('/health', methods=['GET'])
 def health_check():
     """Health check endpoint"""
@@ -452,5 +461,5 @@ if __name__ == '__main__':
     else:
         # API mode for Zapier
         port = int(os.getenv('PORT', 5000))
-        print(f"Starting Flask app on port {port}")
-        app.run(host='0.0.0.0', port=port, debug=False)
+        logger.info(f"Starting Flask app on host 0.0.0.0 port {port}")
+        app.run(host='0.0.0.0', port=port, debug=False, threaded=True)
