@@ -3,7 +3,7 @@ services:
     name: claude-report-generator
     env: python
     plan: starter
-    buildCommand: pip install -r requirements_simple.txt
+    buildCommand: pip install -r requirements.txt
     startCommand: python claude_csv_report_generator.py
     envVars:
       - key: PYTHON_VERSION

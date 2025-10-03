@@ -8,7 +8,7 @@ Automated recruitment report generator that works with CSV files and Zapier webh
 2. **Connect to Render.com:**
    - New → Web Service
    - Connect GitHub repo
-   - Build command: `pip install -r requirements_simple.txt`
+   - Build command: `pip install -r requirements.txt`
    - Start command: `python claude_csv_report_generator.py`
 
 3. **Environment Variables:**
