@@ -3,11 +3,9 @@ services:
     name: claude-report-generator
     env: python
     plan: starter
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
     startCommand: python claude_csv_report_generator.py
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.9.16
       - key: CLAUDE_API_KEY
         sync: false
       - key: PORT
